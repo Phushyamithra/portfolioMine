@@ -1,0 +1,45 @@
+.projectSectionContainer {
+  text-align: center;
+  margin-top: 30%;
+}
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  margin-bottom: 10%;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 200ms ease-in-out;
+}
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  max-width: 30ch;
+  margin-top: 7%;
+  gap: 5px;
+}
+.projectTitle {
+  max-width: 250px;
+  align-self: center;
+  background-color: var(--project-card-bg);
+  border-radius: 20px;
+}
+
+.projectLink {
+  width: fit-content;
+  text-decoration: none;
+  color: #222;
+  justify-content: center;
+  margin-left: 5%;
+
+  img {
+    margin-left: -30px;
+  }
+}
+
+.projectContainer:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,23 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+.skillItem {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 10%; */
+  gap: 15px;
+  align-items: center;
+}
+.holder {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 0;
+  border: 0;
+  gap: 45px;
+}
