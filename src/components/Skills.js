@@ -55,7 +55,7 @@ const Skills = () => {
     const { theme } = useTheme();
     return (
         <div className='skillsContainer'>
-            <h1>Skills</h1>
+            <h1>SKILLS</h1>
             <div className="holder">
                 {
                     skills.map((item, index) => (

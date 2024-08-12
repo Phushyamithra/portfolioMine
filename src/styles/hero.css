@@ -68,6 +68,7 @@
 .description {
   max-width: 30ch;
   font-size: large;
+  text-align: justify;
 }
 .info {
   display: flex;
@@ -109,7 +110,6 @@
   }
   .description {
     max-width: 40ch;
-    text-align: justify;
   }
 }
 @media (width>=400px) {

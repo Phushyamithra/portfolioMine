@@ -45,7 +45,7 @@ const Projects = () => {
     return (
         <>
             <section id='projects' className='projectSectionContainer'>
-                <h1 className='sectionTitle'>Projects</h1>
+                <h1 className='sectionTitle'>PROJECTS</h1>
                 <div className="wrapper">
 
                     {AllList.map((project, index) => (

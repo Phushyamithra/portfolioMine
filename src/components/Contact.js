@@ -3,7 +3,7 @@ import '../styles/contact.css';
 const Contact = () => {
     return (
         <div className='contactContainer'>
-            <h1>Contact</h1>
+            <h1>CONTACT</h1>
             <form className="contactForm" action='https://formspree.io/f/mvgprven' method='post'>
                 <div className="fieldHolder">
                     <label htmlFor='name' hidden>Name</label>
