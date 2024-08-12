@@ -56,21 +56,18 @@ const Skills = () => {
     return (
         <div className='skillsContainer'>
             <h1>Skills</h1>
-            <div className="skillList">
-                <div className="holder">
-                    {
-                        skills.map((item, index) => (
-                            <React.Fragment key={index}>
-                                <div className='skillItem'>
-                                    <TbChecks color={theme === 'dark' ? 'white' : 'black'} />
-                                    <p>{item.skill}</p>
-                                </div>
-                                {(index + 1) % 3 === 0 && true ? <hr /> : ''}
-
-                            </React.Fragment>
-                        ))
-                    }
-                </div>
+            <div className="holder">
+                {
+                    skills.map((item, index) => (
+                        <React.Fragment key={index}>
+                            <div className='skillItem'>
+                                <TbChecks color={theme === 'dark' ? 'white' : 'black'} />
+                                <p>{item.skill}</p>
+                            </div>
+                            {/* {(index + 1) % 3 === 0 && true ? <br /> : ''} */}
+                        </React.Fragment>
+                    ))
+                }
             </div>
         </div>
     );

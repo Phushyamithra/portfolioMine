@@ -1,4 +1,6 @@
 .footerContainer {
+  display: flex;
+  justify-content: center;
   text-align: center;
   p {
     font-size: 16px;
