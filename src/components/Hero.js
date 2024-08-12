@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import '../styles/hero.css';
-import dp from '../assets/hero-img.png';
+import dp from '../assets/mine.JPG';
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

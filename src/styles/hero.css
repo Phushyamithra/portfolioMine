@@ -5,7 +5,8 @@
   min-height: 500px;
 
   .hero {
-    max-width: 400px;
+    max-width: 300px;
+    max-height: 300px;
   }
 
   span {
@@ -42,7 +43,7 @@
 .colorModeContainer {
   display: flex;
   position: relative;
-  margin-top: 30%;
+  margin-top: 10px;
 }
 .icons {
   display: flex;
@@ -100,14 +101,19 @@
   }
 
   .colorModeContainer {
-    margin-top: 10em;
+    margin-top: 0px;
   }
 
   .info {
-    margin-top: 15em;
+    margin-top: 10px;
   }
   .description {
     max-width: 40ch;
     text-align: justify;
+  }
+}
+@media (width>=400px) {
+  .container {
+    margin-top: 5em;
   }
 }
