@@ -41,7 +41,7 @@ const Experience = () => {
                                 <div className="timeline_point"></div>
                             </div>
                             <div className="timeline_component timeline_component--bg">
-                                <h2>{exp.company}</h2>
+                                <h2 style={{ fontFamily: 'Franklin Gothic' }}>{exp.company}</h2>
                                 <h3 className="timeline_title">{exp.role}</h3>
                                 <ol>
 
