@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col justify-center gap-5 text-center items-center;
+  @apply flex flex-col justify-center gap-5 text-center items-center mb-10;
 
   height: 80dvh;
   min-height: 500px;
