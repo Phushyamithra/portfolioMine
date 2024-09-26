@@ -8,10 +8,7 @@ const experiences = [
         duration: 'Dec 2022 - Mar 2024',
         location: 'Hyderabad, Telangana',
         achievements: [
-            'Managed and optimized data management by creating a Lightning Record Type, Object, fields, etc., reducing data creation time to an average of 10 minutes.',
-            'Tailored Salesforce Lightning Pages to meet client needs, achieving a 40% decrease in project completion time. Proficient in Salesforce Technological Product Suites, including Data Loader, Workbench, etc.',
-            'Implemented code fixes with a focus on Data Manipulation and Email Triggers, driving a 40% reduction in system errors through cross-functional collaboration with diverse teams.'
-        ]
+            'Managed and resolved issues in Sales Cloud and Service Cloud across four different client instances', 'Optimized data management by creating a Lightning Record Type, Object, fields, and Page layout, reducing data creation time to an average of 10 minutes per requirement', 'Tailored Salesforce Lightning Pages to meet unique client needs, slashing average customization time to 5 minutes, achieving a 40% decrease in project completion time and boosting client satisfaction by 25%', 'Increased data security by implementing Single Sign-On (SSO) and integrating external applications within Salesforce instances, resulting in a 30% reduction in security breaches and a 20% improvement in overall system efficiency', 'Proficient in maximizing the potential of Salesforce tools like Data Loader and Workbench, leading to a 25% increase in data processing speed and a 15% reduction in error rates', 'Implemented code fixes with a focus on Data Manipulation and Email Triggers, driving a 40% reduction in system errors, enhancing functionality and efficiency through cross-functional collaboration with diverse teams']
     },
     {
         company: 'WIPRO TECHNOLOGIES',
