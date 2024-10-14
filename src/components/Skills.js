@@ -14,12 +14,12 @@ import { SiCss3 } from "react-icons/si";
 export const skills = [
     {
         index: 1,
-        skill: 'HTML',
+        skill: 'Apex',
         logo: <FaHtml5 />
     },
     {
         index: 2,
-        skill: 'CSS',
+        skill: 'LWC',
         logo: <SiCss3 />
     },
     {
@@ -29,26 +29,29 @@ export const skills = [
     },
     {
         index: 4,
-        skill: 'C',
-        // Uncomment if using image logos
-        // logo: <img src={c} alt="C Logo" />
+        skill: 'Apex Flows',
+
     },
     {
         index: 5,
-        skill: 'C++',
-        // Uncomment if using image logos
-        // logo: <img src={cplus} alt="C++ Logo" />
+        skill: 'Triggers',
+
     },
     {
         index: 6,
-        skill: 'Java',
+        skill: 'CSS',
         logo: <FaJava />
     },
     {
         index: 8,
-        skill: 'React.JS',
+        skill: 'HTML',
         logo: <FaReact />
+    },
+    {
+        index: 9,
+        skill: 'React.JS',
     }
+
 ];
 
 const Skills = () => {

@@ -5,22 +5,16 @@ const experiences = [
     {
         company: 'WIPRO TECHNOLOGIES',
         role: 'Salesforce Developer',
-        duration: 'Dec 2022 - Mar 2024',
+        duration: 'Aug 2021 - Mar 2024',
         location: 'Hyderabad, Telangana',
         achievements: [
-            'Managed and resolved issues in Sales Cloud and Service Cloud across four different client instances', 'Optimized data management by creating a Lightning Record Type, Object, fields, and Page layout, reducing data creation time to an average of 10 minutes per requirement', 'Tailored Salesforce Lightning Pages to meet unique client needs, slashing average customization time to 5 minutes, achieving a 40% decrease in project completion time and boosting client satisfaction by 25%', 'Increased data security by implementing Single Sign-On (SSO) and integrating external applications within Salesforce instances, resulting in a 30% reduction in security breaches and a 20% improvement in overall system efficiency', 'Proficient in maximizing the potential of Salesforce tools like Data Loader and Workbench, leading to a 25% increase in data processing speed and a 15% reduction in error rates', 'Implemented code fixes with a focus on Data Manipulation and Email Triggers, driving a 40% reduction in system errors, enhancing functionality and efficiency through cross-functional collaboration with diverse teams']
-    },
-    {
-        company: 'WIPRO TECHNOLOGIES',
-        role: 'Full-Stack Developer',
-        duration: 'Aug 2021 - Dec 2022',
-        location: 'Hyderabad, Telangana',
-        achievements: [
-            'Developed responsive UI with HTML5, CSS3, Bootstrap, achieving 30% faster page load.',
-            'Utilized React for dynamic components, reducing server response time by 25%.',
-            'Enhanced application performance by 40% through core Java optimization and SQL database tuning.',
-            'Identified and resolved bugs, reducing downtime by 50% and improving overall system stability.'
-        ]
+            'Managed and optimized data management by creating a Lightning Record Type, Object, fields, etc., reducing data creation time to an average of 10 minutes.',
+            'Tailored Salesforce Lightning Pages to meet client needs, achieving a 40% decrease in project completion time.Proficient in Salesforce Technological Product Suites, including Data Loader, Workbench, etc.',
+            'Implemented code fixes with a focus on Data Manipulation and Email Triggers, driving a 40% reduction in system errors through cross - functional collaboration with diverse teams.',
+            'Developed and implemented Lightning Web ComponentS (LWC), reducing error rates by 35% and improving system responsiveness by 20 %.',
+            'Created and managed Apex Flows, automating 60% of manual processes and increasing team productivity by 25 % ',
+            'Designed and optimized Record-Triggered Flows, reducing manual intervention by 50% and improving process efficiency by 30 % ',
+            'Utilized SOQL to improve data retrieval, enhancing query performance by 20% and increasing reporting accuracy by 15 %.']
     }
 ];
 const Experience = () => {
