@@ -35,7 +35,8 @@ const Hero = () => {
                         <FaGithub color={theme === 'light' ? 'black' : 'white'} size={35} />
                     </a>
                 </div>
-                <p className='description'>Specializing in React.js, I create dynamic and intuitive web applications. With a focus on performance and usability, I thrive in collaborative environments and am dedicated to delivering high-quality, scalable solutions.</p>
+                <p className='description'>Hi there! I’m Phushya Mithra Gauri, a Salesforce Developer who loves turning challenges into solutions. With 2.5 years at Wipro under my belt, I’ve mastered Apex, SOQL, and LWC, and have a knack for creating smooth, efficient Salesforce experiences. From automating processes to reducing error rates by 35%, my goal is to make Salesforce work smarter, not harder.
+                    <br /><br />Let’s connect—I’m always up for discussing big ideas, new tech, or finding creative solutions that make a real impact!</p>
                 <a href={resume} download><button className='resumeHover'>Resume</button></a>
             </div>
         </section>
